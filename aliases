@@ -1,29 +1,23 @@
 alias cuc='clear; cucumber -r features'
 alias jrake='jruby -S rake'
 
-alias svnst="svn st|grep -v '^X'|grep -v '^Performing'|grep -v '^$'"
-alias svnaddall="svn st | grep '^\?' | tr '^\?' ' ' | sed 's/[\\t]*//' | sed 's/[ ]/\\ /g' | xargs svn add"
-alias siw="svn propedit svn:ignore ."
-alias sdm="svn diff|mate"
-
-
 alias gp="git pull;git submodule init -q;git submodule update"
-alias gdc='git diff --cached|mate'
-alias gdm='git diff|mate'
-alias gsm='git show|mate'
-
-alias hpu='hg pull -u'
-alias hso='hg st; hg out'
-alias hdm='hg diff|mate'
-alias hgr="hg revert --no-backup"
+alias gdc='git diff --cached'
+alias gd='git diff'
+alias gs='git show'
 
 alias bi='bundle install'
 alias bu='bundle update'
 alias be="bundle exec"
 alias bx="bundle exec"
 alias bo="bundle open"
-alias gib="gem install bundler --no-ri --no-rdoc"
 
-alias redcar=wrapped_redcar
-alias crs="clear; be rspec -c"
-alias crb="clear; ruby"
+alias fucking='sudo'
+alias wtf='man'
+alias shit='git'
+
+alias passwords='openssl des3 -d -in ~/Dropbox/old\ comp/secret_document_dont_open.encrypted.txt | less'
+
+alias java8='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/'
+alias java7='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/'
+alias java6='export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/'
