@@ -11,3 +11,5 @@
 * clone this repo into $HOME/.bash
 * Add the following to your bash config file:
   * source $HOME/.bash/source_all
+* Link the gitconfig file
+  * ln -s ~/.bash/.gitconfig .gitconfig

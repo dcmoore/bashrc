@@ -1,0 +1,27 @@
+[color]
+	ui = true
+[color "diff"]
+	whitespace = red reverse
+[grep]
+	linenumber = true
+[diff]
+	renames = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	cbr = checkout -b
+	dbr = branch -D
+	prune-all = !git remote | xargs -n 1 git remote prune
+	commit-diff = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[http]
+	postBuffer = 524288000
+[credential]
+	helper = osxkeychain
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
