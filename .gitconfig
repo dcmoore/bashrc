@@ -25,3 +25,8 @@
 	autosquash = true
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[user]
+	name = Dave Moore
+	email = cuvuligio@gmail.com
+[core]
+	editor = vim
