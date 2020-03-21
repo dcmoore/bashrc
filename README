@@ -9,7 +9,8 @@
 ## Use
 
 * clone this repo into $HOME/.bash
-* Add the following to your bash config file:
+* Add the following to your bash config file(s):
   * source $HOME/.bash/source_all
-* Link the gitconfig file
+* Link the gitconfig and tmux.conf files
   * ln -s ~/.bash/.gitconfig .gitconfig
+  * ln -s ~/.bash/.tmux.conf .tmux.conf
